@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+
+<HTML>
+
+  <HEAD>
+    <LINK REL="Stylesheet" HREF="STYLES.CSS" />
+    </HEAD>
+
+    <BODY>
+
+      <DIV CLASS="Container">
+        <HEADER CLASS="Header">
+          <H1 ID="title">Survey Form of Mark Classen</H1>
+
+          <P ID="description">The purpose of this project is to show what I have learnt about HTML and CSS thus far.</P>
+
+
+          <FORM ID="survey-form"
+        >
+          <LABEL ID="name-label">Full Name 
+        <INPUT
+        Placeholder="Mark Classen"
+          ID="name"
+          Type="Text"
+          required />
+          
+          </LABEL>
+
+
+
+<LABEL ID="email-label" >e-mail address <INPUT Placeholder="Mark.classen@gmail.com" ID="email" TYPE="EMAIL" required /></LABEL>
+
+<div>
+
+  <LABEL ID="number-label" >Member<INPUT  ID="number"
+  required
+  type="number"
+  Placeholder="1"
+min=3
+max=8 />
+</LABEL>
+
+</div>
+
+<div>
+<SELECT ID="dropdown" required>
+  
+  <Option VALUE="Choose">Which topic concerns you the most?</Option>
+
+  <Option VALUE="Inflation">Inflation</Option>
+
+  <Option VALUE="Pollution">Pollution</Option>
+
+  <Option VALUE="Nuclear War">Nuclear War</Option>
+
+  <Option VALUE ="Homelessness">Homlessness</Option>
+
+<Option VALUE ="AI revolution">AI revolution</Option>
+
+<Option VALUE="Animal Cruelty">Animal Cruelty</Option>
+
+</SELECT>
+</div>
+<p></p>
+
+
+
+
+
+<div>Who do you represent?</div>
+<Label For="Oneself"><INPUT TYPE="RADIO" NAME="REPRESENT" VALUE="1" class="inline" ID="Radio1" CHECKED>Yourself</INPUT></Label>
+
+<Label For="Entity"><INPUT TYPE="RADIO" NAME="REPRESENT" VALUE="2"
+class="inline" ID="Radio2" >Organization</INPUT>
+</Label>
+
+<div>
+
+<LABEL For="Terms and conditions">Have you read the <a HREF=  </a>Terms and conditions?<INPUT TYPE="Checkbox" ID="terms and conditions" required Value="checkbox1"> 
+  </INPUT></LABEL>
+</div>
+  <div><LABEL For="Do you want to be notified?"> Do you want to be notified of any policy changed?<a HREF=https://www.youtube.com/shorts/oa2jNw2JW_s</a><INPUT TYPE="checkbox" Value="checkbox2" ID="Do you want to be notified?"></INPUT></LABEL> 
+
+</div>
+
+<LABEL><TEXTAREA id="TopicBox" name="TopicBox1" rows="5" cols="40" PLACEHOLDER="Why does the topic you chose matter to you?"></TEXTAREA></LABEL>
+
+<INPUT TYPE="submit" VALUE="Submit" ID="submit" />
+
+
+
+</FORM ID="survey-form"
+        >
+
+      </BODY>
+      </HTML>
